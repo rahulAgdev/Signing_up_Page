@@ -1,0 +1,30 @@
+{
+  "name": "sign_in_page_mailchimp",
+  "version": "1.0.0",
+  "description": "Sign in page using mailchimp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulAgdev/Signing_up_Page.git"
+  },
+  "keywords": [
+    "Sign_in",
+    "log_in"
+  ],
+  "author": "Rahul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulAgdev/Signing_up_Page/issues"
+  },
+  "homepage": "https://github.com/rahulAgdev/Signing_up_Page#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "node-mailjet": "^5.1.1",
+    "nodemon": "^2.0.19",
+    "request": "^2.88.2"
+  }
+}
