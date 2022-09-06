@@ -62,6 +62,9 @@ app.post("/",(req,res)=>{
 // api key for mailchimp --> 3ded65ceaae0e7a952360e4c0dd8516b-us10
 // audience id for mailchimp --> d5e41958c4
 
-app.listen(port,()=>{
+// for running it on heroku ... we need to change the port to process.env.PORT --> this is the dynamic port. || tells to listen to port when we are running it in the local host.
+
+// Then we need to create a procfile.
+app.listen(process.env.PORT || port,()=>{
     console.log("Server running at http://localhost:"+port);
 })
